@@ -13,6 +13,7 @@ global base "D:\MIGUEL\Proyectos\comercio electrónico\Base"
 	global tablas "$base\tablas"
 	
 use "$final/ENE19", clear
+*Base original obtenida del Ministerio de la producción de Perú: https://ogeiee.produce.gob.pe/index.php/en/k2/censos/ene-2015
 
 *factorial de digitalización
 global digit1 platformdig redessoc pweb promdig computadora smartph compras capa_dig ncap_dig servtec
