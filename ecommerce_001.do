@@ -9,6 +9,8 @@ global base "D:\MIGUEL\Proyectos\comercio electrónico\Base"
 	global final "$base\trabajado"
 
 ** ENE 2019 - creación de variables
+*Base original obtenida del Ministerio de la Producción: https://ogeiee.produce.gob.pe/index.php/en/k2/censos/ene-2015
+
 use "$origin\ENE2019", clear
 
 
