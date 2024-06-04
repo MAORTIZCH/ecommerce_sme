@@ -8,6 +8,7 @@ global base "D:\MIGUEL\Proyectos\comercio electrónico\Base"
 	global final "$base\trabajado"
 	
 *BASE ENCUESTA A EMPRESAS COVID 19
+*Base original obtenida del INEI: https://proyectos.inei.gob.pe/microdatos/
 
 use "$origin\a2020_COVID19", clear
 
@@ -16,6 +17,7 @@ tab P_4_2 if P_4_1!=3 [iw= FACTOR]
 
 *Serie ENE (Se uniformiza a empresas con ventas mayores a 50 UIT en el año de referencia)
 * micro<150 UIT; pequeña 150<x<1700; mediana 1700<x<2300
+*Base original obtenida del INEI: https://ogeiee.produce.gob.pe/index.php/en/k2/censos/ene-2015
 
 *ENE 2015 (Desde 20 UIT)
 use "$origin\ENE2015", clear
